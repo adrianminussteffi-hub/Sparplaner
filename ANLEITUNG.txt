@@ -1,0 +1,17 @@
+SPARPLANER – INSTALLATION NUR MIT ANDROID-SMARTPHONE
+
+Die Dateien müssen auf einem HTTPS-Host liegen. Eine lokale HTML-Datei oder eine ZIP-Datei allein kann nicht als PWA installiert werden.
+
+Möglichkeit: GitHub Pages (öffentliches Repository – daher KEINE privaten Finanzdaten in Dateien hochladen!)
+1. Auf github.com ein Konto erstellen bzw. anmelden.
+2. Neues öffentliches Repository erstellen, z. B. sparplaner.
+3. ZIP auf dem Smartphone entpacken.
+4. In GitHub im Repository „Add file“ > „Upload files“ auswählen (bei Bedarf in Chrome Desktopwebsite aktivieren). Alle Dateien aus dem entpackten Ordner hochladen, nicht den Ordner oder die ZIP allein.
+5. Unter Settings > Pages > Build and deployment „Deploy from a branch“, Branch „main“, Ordner „/(root)“ auswählen und speichern.
+6. Die angezeigte https://BENUTZER.github.io/sparplaner/ Adresse in Chrome auf Android öffnen.
+7. Chrome-Menü (drei Punkte) > „App installieren“ oder „Zum Startbildschirm hinzufügen“.
+8. Nach dem ersten vollständigen Laden ist die App offline nutzbar.
+
+ACHTUNG: Daten werden lokal im Browser/der installierten App gespeichert. Browserdaten löschen, Deinstallation oder Gerätewechsel können Daten löschen. Regelmäßig „Sicherung exportieren“ nutzen.
+
+Keine Finanzdaten in GitHub hochladen: Im Repository liegen nur Programmdateien und Beispieldaten, deine späteren Eingaben werden nicht dorthin übertragen.
